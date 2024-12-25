@@ -21,18 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
   );
 });
 
-function toggleAnswer(element) {
-  const answer = element.nextElementSibling;
-  const buttonImg = element.querySelector(".toggle-button img"); 
-
-  if (answer.style.display === "none" || answer.style.display === "") {
-    answer.style.display = "block";
-    buttonImg.src = "/img/faq/Component 1.png"; 
-  } else {
-    answer.style.display = "none";
-    buttonImg.src = "/img/faq/Component 1.png"; 
-  }
-}
 
 
 
